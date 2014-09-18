@@ -1,4 +1,4 @@
-public class DrawFigures1 {
+ class DrawFigures1 {
     public static void main(String[] args) {
 	 drawDiamond(); 
 	 drawX();
@@ -41,4 +41,5 @@ public class DrawFigures1 {
         System.out.println(" /    \\");
 		}
     }
-}
+
+
