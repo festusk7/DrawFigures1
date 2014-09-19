@@ -1,5 +1,10 @@
- class DrawFigures1 {
+class Decomposition {
     public static void main(String[] args) {
+	 drawDiamond(); 
+	 drawX();
+	 drawRocket();
+	 } 
+          public static void drawDiamond() { 
 		System.out.println("   /\\");
         System.out.println("  /  \\");
         System.out.println(" /    \\");
@@ -7,6 +12,8 @@
         System.out.println("  \\  /");
         System.out.println("   \\/");
         System.out.println();
+		}
+		public static void drawX() { 
         System.out.println(" \\    /");
         System.out.println("  \\  /");
         System.out.println("   \\/");
@@ -14,6 +21,8 @@
         System.out.println("  /  \\");
         System.out.println(" /    \\");
         System.out.println();
+		}
+		public static void drawRocket() {
         System.out.println("   /\\");
         System.out.println("  /  \\");
         System.out.println(" /    \\");
@@ -32,5 +41,3 @@
         System.out.println(" /    \\");
 		}
     }
-
-
